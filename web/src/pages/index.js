@@ -49,9 +49,9 @@ export const query = graphql`
         node {
           id
           publishedAt
-          mainImage {
-            ...SanityImage
-            alt
+//          mainImage {
+//            ...SanityImage
+//            alt
           }
           title
           _rawExcerpt
